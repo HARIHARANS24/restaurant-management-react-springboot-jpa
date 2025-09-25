@@ -12,7 +12,7 @@ This system is designed for restaurant owners or staff to:
 - Use a clean, responsive UI for both desktop and mobile views    
    
  
-### Key Features 
+### Key Features  
 - 🍽️ **Menu Management**: Add, edit, and manage food items with categories and pricing  
 - 📅 **Table Booking**: Handle customer reservations with real-time availability
 - 📦 **Order Management**: Track orders from placement to delivery
