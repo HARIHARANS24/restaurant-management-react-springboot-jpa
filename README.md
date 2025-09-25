@@ -13,7 +13,7 @@ This system is designed for restaurant owners or staff to:
    
  
 ### Key Features   
-- 🍽️ **Menu Management**: Add, edit, and manage food items with categories and pricing  
+- 🍽️ **Menu Management**: Add, edit, and manage food items with categories and pricing   
 - 📅 **Table Booking**: Handle customer reservations with real-time availability
 - 📦 **Order Management**: Track orders from placement to delivery
 - 👥 **Customer Management**: Maintain customer profiles and order history
