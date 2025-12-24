@@ -9,7 +9,7 @@ This system is designed for restaurant owners or staff to:
 - Handle table bookings and customer information 
 - Track and update order statuses  
 - Maintain all data in a structured MySQL database     
-- Use a clean, responsive UI for both desktop and mobile views     
+- Use a clean, responsive UI for both desktop and mobile views      
    
  
 ### Key Features   
