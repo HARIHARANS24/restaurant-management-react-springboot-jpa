@@ -10,7 +10,7 @@ This system is designed for restaurant owners or staff to:
 - Track and update order statuses  
 - Maintain all data in a structured MySQL database      
 - Use a clean, responsive UI for both desktop and mobile views      
-     
+      
  
 ### Key Features   
 - 🍽️ **Menu Management**: Add, edit, and manage food items with categories and pricing   
