@@ -4,7 +4,7 @@ A full-stack Restaurant Management application that allows administrators and st
 ## 📚 Overview
 
 This system is designed for restaurant owners or staff to:
- 
+  
 - Manage menu items (CRUD)    
 - Handle table bookings and customer information     
 - Track and update order statuses      
