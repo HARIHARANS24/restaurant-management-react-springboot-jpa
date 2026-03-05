@@ -40,77 +40,72 @@ This system is designed for restaurant owners or staff to:
 
 ### Backend Structure
 ```
-Backend/
-├── 📂 src/
-│   ├── 📂 main/
-│   │   ├── 📂 java/
-│   │   │   └── 📂 com/
-│   │   │       └── 📂 example/
-│   │   │           ├── 📂 Controller/
-│   │   │           │   ├── 📄 BookingController.java
-│   │   │           │   ├── 📄 CustomerController.java
-│   │   │           │   ├── 📄 MenuController.java
-│   │   │           │   └── 📄 OrderController.java
-│   │   │           ├── 📂 Model/
-│   │   │           │   ├── 📄 Booking.java
-│   │   │           │   ├── 📄 Customer.java
-│   │   │           │   ├── 📄 Menu.java
-│   │   │           │   └── 📄 Order.java
-│   │   │           ├── 📂 Repository/
-│   │   │           │   ├── 📄 BookingRepository.java
-│   │   │           │   ├── 📄 CustomerRepository.java
-│   │   │           │   ├── 📄 MenuRepository.java
-│   │   │           │   └── 📄 OrderRepository.java
-│   │   │           ├── 📂 Service/
-│   │   │           │   ├── 📄 BookingService.java
-│   │   │           │   ├── 📄 CustomerService.java
-│   │   │           │   ├── 📄 MenuService.java
-│   │   │           │   └── 📄 OrderService.java
-│   │   │           ├── 📂 Exception/
-│   │   │           │   └── 📄 ResourceNotFoundException.java
-│   │   │           └── 📂 Demo/
-│   │   │               └── 📄 RestaurantApplication.java
-│   │   └── 📂 resources/
-│   │       └── 📄 application.properties
-│   └── 📂 test/
-├── 📄 pom.xml
-├── 📄 mvnw
-└── 📄 mvnw.cmd
-```
-
-### Frontend Structure
-```
-Frontend/
-├── 📂 src/
-│   ├── 📂 pages/
-│   │   ├── 📄 Home.js
-│   │   ├── 📄 Home.css
-│   │   ├── 📄 login.js
-│   │   ├── 📄 login.css
-│   │   ├── 📄 Signup.js
-│   │   └── 📄 Signup.css
-│   ├── 📂 layout/
-│   │   └── 📄 Navbar.js
-│   ├── 📂 users/
-│   │   ├── 📄 AddUser.js
-│   │   ├── 📄 AddUser.css
-│   │   ├── 📄 EditUser.js
-│   │   ├── 📄 EditUser.css
-│   │   ├── 📄 ViewUser.js
-│   │   └── 📄 ViewUser.css
-│   ├── 📄 App.js
-│   ├── 📄 App.css
-│   ├── 📄 App.test.js
-│   ├── 📄 index.js
-│   ├── 📄 index.css
-│   ├── 📄 logo.svg
-│   ├── 📄 reportWebVitals.js
-│   └── 📄 setupTests.js
-├── 📂 public/
-│   ├── 📄 index.html
-│   ├── 📄 favicon.ico
-│   └── 📄 manifest.json
-└── 📄 package.json
+Directory structure:
+└── hariharans24-restaurant-management-react-springboot-jpa/
+    ├── README.md
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   └── src/
+    │       ├── main/
+    │       │   ├── java/
+    │       │   │   └── com/
+    │       │   │       └── example/
+    │       │   │           ├── Controller/
+    │       │   │           │   └── RestaurantController.java
+    │       │   │           ├── Demo/
+    │       │   │           │   └── RestaurantApplication.java
+    │       │   │           ├── Exception/
+    │       │   │           │   └── RestaurantNotFoundException.java
+    │       │   │           ├── Model/
+    │       │   │           │   └── Restaurant.java
+    │       │   │           ├── Repository/
+    │       │   │           │   └── RestaurantRepository.java
+    │       │   │           └── Service/
+    │       │   │               └── RestaurantService.java
+    │       │   └── resources/
+    │       │       └── application.properties
+    │       └── test/
+    │           └── java/
+    │               └── com/
+    │                   └── example/
+    │                       └── demo/
+    │                           └── RestaurantApplicationTests.java
+    └── Frontend/
+        ├── package.json
+        ├── public/
+        │   ├── ab.avif
+        │   ├── as.avif
+        │   ├── bb.avif
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── App.test.js
+            ├── index.css
+            ├── index.js
+            ├── reportWebVitals.js
+            ├── setupTests.js
+            ├── layout/
+            │   └── Navbar.js
+            ├── pages/
+            │   ├── Home.css
+            │   ├── Home.js
+            │   ├── login.css
+            │   ├── login.js
+            │   ├── Signup.css
+            │   └── Signup.js
+            └── users/
+                ├── AddUser.css
+                ├── AddUser.js
+                ├── EditUser.css
+                ├── EditUser.js
+                ├── ViewUser.css
+                └── ViewUser.js
 ```
 
 ## 🚀 Getting Started
